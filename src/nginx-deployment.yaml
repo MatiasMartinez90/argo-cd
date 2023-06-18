@@ -1,8 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
-name: nginx-app
+namespace: mian
 metadata:
-  namespace: nginx-app
   labels:
     app: nginx-app
 spec:
